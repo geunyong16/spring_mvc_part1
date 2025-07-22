@@ -10,7 +10,7 @@ import study.servlet.web.frontcontroller.v1.ControllerV1;
 
 import java.io.IOException;
 
-public class MemberSaveContollerV1 implements ControllerV1 {
+public class MemberSaveControllerV1 implements ControllerV1 {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
 

@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import study.servlet.web.frontcontroller.v1.controller.MemberFormControllerV1;
 import study.servlet.web.frontcontroller.v1.controller.MemberListControllerV1;
-import study.servlet.web.frontcontroller.v1.controller.MemberSaveContollerV1;
+import study.servlet.web.frontcontroller.v1.controller.MemberSaveControllerV1;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -20,7 +20,7 @@ public class FrontControllerServletV1 extends HttpServlet {
 
     public FrontControllerServletV1() {
         controllerMap.put("/front-controller/v1/members/new-form",new MemberFormControllerV1());
-        controllerMap.put("/front-controller/v1/members/save",new MemberSaveContollerV1());
+        controllerMap.put("/front-controller/v1/members/save",new MemberSaveControllerV1());
         controllerMap.put("/front-controller/v1/members",new MemberListControllerV1());
     }
 
